@@ -1,0 +1,231 @@
+:root{
+     /* --primary: aliceblue; */
+     --primary: #00a9b9;
+     --secoundary :rgb(24, 24, 24); 
+    /* --primary: #97bd6b; */
+}
+body{
+    /* background: url('./images/bg.jpg') no-repeat; */
+     /* background-size:200vw;  */
+     background-position: center;
+     
+     /* background-color:#035b9b ; */
+     background-color:var(--secoundary);
+     margin:0;
+}
+.bar{
+    background-color: var(--primary);
+    padding : 0.5rem;
+    border-bottom-right-radius: 1rem;
+
+}
+.tri-head{
+font-size: 2rem;
+margin: 0;
+}
+.item{
+    font-size: 1.3rem;
+    
+}
+.item:hover{
+    border : 2px solid var(--secoundary);
+    border-radius: 0.5rem ;
+}
+.active {
+font-weight: bolder;
+border : 2px solid var(--secoundary);
+border-radius: 0.5rem ;
+}
+.bar-items{
+text-align: right;
+
+}
+   .initem {
+    display :inline;
+    padding : 0rem 0.4rem;
+   
+}  
+.index-heading{
+    background-color: var(--primary);
+    font-size: 2rem;
+    padding : 1rem;
+    text-align: center;
+    border-bottom-right-radius: 0.5rem;
+   
+}
+
+
+.container{
+    display : flex;
+    flex-wrap: wrap;
+    width: 30rem;
+    justify-content:space-around;
+   margin : 8.4% auto;
+   text-align: center;
+   font-weight: 500;
+   font-size: 1.5rem;
+   flex-grow: 1; 
+    
+}
+.is-triangle,.hypotenuse,.area,.quiz{
+
+    padding: 3rem 1rem 0rem 1rem;
+    background-color:var(--primary) ;
+    border-radius: 0.4rem;
+    color: black;
+   
+    width: 6rem;
+    height : 5rem;
+     
+    margin : 1.8rem;
+}
+.is-triangle:hover,.hypotenuse:hover,.area:hover,.quiz:hover{
+    border : 2px solid var(--primary);
+    
+    color: var(--primary);
+    background-color:var(--secoundary);
+   
+}
+.container-istriangle,.container-hyp,.container-area{
+    display : flex;
+    flex-direction: column;
+    width: 23rem;
+    background-color : var(--primary);
+    color: var(--secoundary);
+    font-size: 1.6rem;
+    text-align: center;
+     margin : 8% auto; 
+     padding : 1rem;
+     border-radius: 0.5rem;
+}
+.container-quiz{
+    display : flex;
+    flex-direction: column;
+    width: 40rem;
+    font-size: 1.6rem;
+    text-align: center;
+     margin : 5% auto; 
+     background-color : var(--primary);
+    border-radius: 0.5rem;
+
+}
+.angle-input,.side-input,.height-input{
+    padding : 0.5rem;
+    margin : 0.5rem;
+    border-radius: 0.5rem;
+    background-color:var(--secoundary) ;
+    color : var(--primary);
+    border : 2px solid var(--primary);
+    font-size: 1rem;
+}
+.discription{
+text-decoration: underline;
+font-size: 2rem;
+padding : 0 0 2rem 0;
+}
+.submit-btn,.check-btn{
+width : 5rem;
+margin :8% auto;
+padding : 0.5rem;
+border-radius: 0.5rem;
+border : 2px solid var(--primary);
+background-color: var(--secoundary);
+color: var(--primary);
+font-size: 1rem;
+font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+.output{
+    font-size: 2rem;
+    color : var(--primary);
+    border-radius: 0.5rem;
+background-color:var(--secoundary) ;
+border : 2px solid var(--primary);
+    
+}
+.tri-foot,.hyp-foot,.area-foot,.index-foot{
+   
+   padding :0.3rem; 
+    text-align: center;
+    background-color: var(--primary);
+    position : absolute;
+    bottom: 0;
+    right : 0;
+    left : 0;
+    border-top-left-radius: 0.5rem;
+}
+.quiz-foot{
+    padding :0.3rem; 
+    text-align: center;
+    background-color: var(--primary);
+    border-top-left-radius: 0.5rem;
+}
+.initem{
+display: inline;
+
+font-size: 25px;
+}
+.item{
+    color: var(--secoundary);
+    padding:10px;
+}
+.made-stmt{
+    color:var(--secoundary);
+    padding:  0px 10px 10px 10px;
+    text-align: center;
+}
+.gmail-phone{
+    color:var(--primary);
+    font-size: 0px;
+  }
+
+  
+
+  @media screen and (max-width : 600px)
+  {
+    .gmail-laptop{
+        display: none;
+        padding: 0px;
+    }
+    
+    .gmail-phone{
+        font-size: 25px;
+        color:var(--secoundary);
+        padding: 2px;
+    }
+    .footer{
+    margin-top:35%;
+    }
+   .item-link{
+       margin-left: -20%;
+   }
+   .tri-foot,.hyp-foot,.area-foot,.index-foot{
+   
+    padding :0.3rem; 
+     text-align: center;
+     background-color: var(--primary);
+     border-top-left-radius: 0.5rem;
+     position: relative;
+ }
+ .is-triangle,.hypotenuse,.area,.quiz{
+
+    width : 8rem;
+    height: 6rem;
+    
+ }
+
+    .container{
+        width : 10rem;
+    }
+    .container-istriangle,.container-hyp,.container-area{
+       width:18rem ;
+   
+    }
+    .container-quiz{
+        width:18rem ;
+    }
+
+
+  }
