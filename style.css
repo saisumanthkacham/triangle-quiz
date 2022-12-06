@@ -155,6 +155,7 @@ border : 2px solid var(--primary);
     right : 0;
     left : 0;
     border-top-left-radius: 0.5rem;
+    margin-top:1rem;
 }
 .quiz-foot{
     padding :0.3rem; 
@@ -208,6 +209,7 @@ font-size: 25px;
      background-color: var(--primary);
      border-top-left-radius: 0.5rem;
      position: relative;
+     margin-top:1rem;
  }
  .is-triangle,.hypotenuse,.area,.quiz{
 
