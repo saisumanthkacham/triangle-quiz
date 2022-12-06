@@ -155,7 +155,7 @@ border : 2px solid var(--primary);
     right : 0;
     left : 0;
     border-top-left-radius: 0.5rem;
-    margin-top:1rem;
+    margin-top:40%;
 }
 .quiz-foot{
     padding :0.3rem; 
@@ -197,7 +197,7 @@ font-size: 25px;
         padding: 2px;
     }
     .footer{
-    margin-top:35%;
+    margin-top:40%;
     }
    .item-link{
        margin-left: -20%;
